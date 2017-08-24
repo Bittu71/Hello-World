@@ -553,7 +553,35 @@
 																				<ul class="nav nav-tabs">
 																					<li class="active"><a href="#atheletics" data-toggle="tab">Atheletics</a>
 																					</li>
-																					
+					<li><a href="#basketball_club" data-toggle="tab">Basketball Club</a>
+																					</li>
+																					<li>
+																						<a href="#colloseum" data-toggle="tab">Colloseum(Karate and Judo)</a>
+																					</li>
+																					<li>
+																						<a href="#cricket" data-toggle="tab">Cricket</a>
+																					</li>
+																					<li>
+																						<a href="#kho_kho" data-toggle="tab">Kho-Kho</a>
+																					</li>
+																					<li>
+																						<a href="#shuttlers" data-toggle="tab">Shuttlers</a>
+																					</li>
+																					<li>
+																						<a href="#swimming" data-toggle="tab">Swimming</a>
+																					</li>
+																					<li>
+																						<a href="#table_tennis" data-toggle="tab">Table Tennis</a>
+																					</li>
+																					<li>
+																						<a href="#tennis" data-toggle="tab">Tennis</a>
+																					</li>
+																					<li>
+																						<a href="#volleyball_boys" data-toggle="tab">Volleyball (Boys)</a>
+																					</li>
+																					<li>
+																						<a href="#volleyball_girls" data-toggle="tab">Volleyball (Girls)</a>
+																					</li>																
 																				</ul>
 																				<div class="tab-content">
 																					<div class="tab-pane fade" id="atheletics">
@@ -561,7 +589,61 @@
 																						<p><strong>Male Captain:</strong>Mahaveer</p>
 																						<p><strong>Female Captain:</strong>Priyanka Sahoo</p>
 																					</div>
+					<div class="tab-pane fade" id="basketball_club">
+																						<h3>Basketball Club</h3>
+																						<p><strong>President:</strong>Aditya Parasar</p>
+																						<p><strong>Vice President:</strong>Yashwanthini Reddy</p>
 																					</div>
+																					<div class="tab-pane fade" id="colloseum">
+																						<h3>Colloseum(Karate and Judo)</h3>
+																						<p><strong>President:</strong>Gaurav Singh</p>
+																						<p><strong>Vice President:</strong>Ashish Choudhary</p>
+																						<p><strong>Secretary:</strong>Anshuman Bhagwat</p>
+																						<p><strong>Treasurer:</strong>Mohit Sharma</p>
+																						<p><strong>Cameraman:</strong>Debashish behera</p>
+																					</div>
+																					<div class="tab-pane fade" id="cricket">
+																						<h3>Cricket</h3>
+																						<p><strong>President:</strong>Debanand Behera</p>
+																						<p><strong>Vice President:</strong>Biswajeet Biswal</p>
+																					</div>
+																					<div class="tab-pane fade" id="kho_kho">
+																						<h3>Kho-Kho</h3>
+																						<p><strong>President:</strong>Archana Rath</p>
+																						<p><strong>Vice President:</strong>Jaga Sammalah</p>
+																						<p><strong>Male Captain:</strong>Chanakya Chandra</p>
+																						<p><strong>Female Captain:</strong>Abhipsa Nayak</p>
+																					</div>
+																					<div class="tab-pane fade" id="shuttlers">
+																						<h3>Shuttlers</h3>
+																						<p><strong>Male Captain:</strong>Nihar Ranjan Behera</p>
+																						<p><strong>Female Captain:</strong>Ansumita Saha</p>
+																						<p><strong>Male Vice-Captain:</strong>Prashant Jangir</p>
+																						<p><strong>Female Vice-Captain:</strong>Sushree Suman</p>
+																					</div>
+																					<div class="tab-pane fade" id="swimming">
+																						<h3>Swimming</h3>
+																						<p><strong>Boys Captain:</strong>Amit Rajwonkar</p>
+																						<p><strong>Girls Captain:</strong>Venu Pandit</p>
+																					</div>
+																					<div class="tab-pane fade" id="table_tennis">
+																						<h3>Table Tennis</h3>
+																						<p><strong>President:</strong>Asish Agarwal</p>
+																					</div>
+																					<div class="tab-pane fade" id="tennis">
+																						<h3>Tennis</h3>
+																						<p><strong>President:</strong>Asish Agarwal</p>
+																					</div>
+																					<div class="tab-pane fade" id="volleyball_boys">
+																						<h3>Volleyball(Boys)</h3>
+																						<p><strong>President:</strong>Sambit Behera</p>
+																						<p><strong>Vice President:</strong>B.D.Raghavendra</p>
+																					</div>
+																					<div class="tab-pane fade" id="volleyball_girls">
+																						<h3>Volleyball(Girls)</h3>
+																						<p><strong>President:</strong>Gangavarapu Lavanya</p>
+																						<p><strong>Vice President:</strong>Ankita Singh</p>
+																					</div>															</div>
 																			</div>
 																		</div>
 																	</div>
