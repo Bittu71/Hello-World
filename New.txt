@@ -1,1 +1,794 @@
-gklac
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,width=device-width">
+	<title>Information about Student Activity Centre - Monday Morning</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo ASSETS_URL; ?>css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo ASSETS_URL; ?>css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo ASSETS_URL; ?>fonts/font-awesome-4.0.3/css/font-awesome.min.css">
+	
+	<link href="<?php echo ASSETS_URL; ?>img/favicon.png" rel="shortcut icon" type="image/png" />
+	
+	<style>
+		#accordion1 h3 {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--HEADER-->
+	<?php echo $header; ?>
+	<!--END HEADER-->
+
+	<!--CONTAINER-->
+	<div class="container">
+		<!--MENU-->
+		<?php echo $nav; ?>
+		<!--END MENU-->
+
+		<!--MAIN SECTION-->
+		<div class="main post-page">
+			<div class="row">
+				<!--CONTENT-->
+				<div class="col-md-9 col-sm-12 clearfix">
+					<!--SAC-->
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+							<h2>Student Activity Centre</h2>
+							<div class="panel-group" id="panel-sac">
+								<div class="panel panel-default">
+									<div id="sac" class="panel">
+										<div class="panel-body">
+											<!--Using Predefined TAB of Bootstrap-->
+											<ul class="nav nav-tabs">
+												<li class="active"><a href="#sac-info" data-toggle="tab">SAC INFO</a>
+												</li>
+												<li class=""><a href="#club-info" data-toggle="tab">CLUBS</a>
+												</li>
+												<li class=""></li>
+												<li class=""></li>
+												<li class=""></li>
+											</ul>
+											<div class="tab-content">
+												<!--SAC INFO TAB-->
+												<div class="tab-pane fade active in" id="sac-info">
+													<div class="col-md-12 col-sm-12">
+														<div class="panel-group" id="accordion">
+															<!--SAC OFFICE BEARER-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion" href="#panel-sac-office-bearers">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>SAC OFFICE BEARERS</h1>
+																	</a>
+																</div>
+																<div id="panel-sac-office-bearers" class="panel-collapse collapse in">
+																	<div class="panel-body">
+																		<div class="row">
+																			<div class="col-md-12 col-sm-12">
+																				<ul id="Tabs" class="nav nav-tabs">
+																					<li class="active"><a href="#fms" data-toggle="tab">ART AND CULTURAL SOCIETY</a>
+																					</li>
+																					<li><a href="#lcs" data-toggle="tab">GAMES AND SPORTS SOCIETY</a>
+																					</li>
+																					<li><a href="#gss" data-toggle="tab">LITERARY SOCIETY</a>
+																					</li>
+																					<li><a href="#ts" data-toggle="tab">TECHNICAL SOCIETY</a>
+																					</li>
+																				</ul>
+																				<div id="TabContent5" class="tab-content">
+																					<div class="tab-pane fade active in" id="fms">
+																						<div class="row">
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4><u>Second Year</u></h4>
+																								<p>
+																									<strong>Name:</strong> &nbsp; Debasis Mishra
+																									<br>
+																									<strong>Roll:</strong>&nbsp; 116ME0462
+																								</p>
+			
+																								<h4>&nbsp;<br>
+																									<u>Third Year</u>
+																								</h4>
+																								<p><strong>Name:</strong> Pratyush Dash
+																									<br>
+																									<strong>Roll:</strong> 115CR0169
+																								</p>
+																							</div>
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4>&nbsp;<br>
+																									<u>Fourth &amp; Fifth Year</u>
+																								</h4>
+																								<p><strong>Name:</strong> Ajit Kumar
+																									<br>
+																									<strong>Roll:</strong> 714CE3011
+																								</p>
+																								
+																								<h4><br>
+																									<u>PG &amp; Research</u><br>
+																								</h4>
+																								<p> <strong>NO CANDIDATE</strong></p>
+																								
+																							</div>
+																						</div>
+																					</div>
+																					<div class="tab-pane fade " id="lcs">
+																						<div class="row">
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4><u>Second Year</u></h4>
+																								<p><strong>Name:</strong> Buddiga Bhargava Suresh
+																									<br>
+																									<strong>Roll:</strong> 116MN0550
+																								</p>
+																								
+																								<h4>&nbsp;<br><u>Third Year</u></h4>
+																								<p><strong>Name:</strong> Abinash Sahoo
+																									<br>
+																									<strong>Roll:</strong> 115MM0510
+																								</p>
+																								
+																							</div>
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4>&nbsp;<br><u>Fourth &amp; Fifth Year</u></h4>
+																								<p><strong>Name:</strong> Mukesh Kumar Apat
+																									<br>
+																									<strong>Roll:</strong> 114CR0083
+																								</p>
+																								
+																								<h4><br><u>PG &amp; Research</u><br></h4>
+																								<p><strong>Name:</strong> Rongali Charanteja
+																									<br>
+																									<strong>Roll:</strong> 216EE4299
+																								</p>
+																								
+																							</div>
+																						</div>
+																					</div>
+																					<div class="tab-pane fade" id="gss">
+																						<div class="row">
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4><u>Second Year</u></h4>
+																								<p><strong>Name:</strong> Saurav Kumar Saraf
+																									<br>
+																									<strong>Roll:</strong> 116MN0580
+																								</p>
+																								
+																								<h4>&nbsp;<br><u>Third Year</u></h4>
+																								<p><strong>Name:</strong> Harsh Saini
+																									<br>
+																									<strong>Roll:</strong> 715CR2136
+																								</p>
+																								
+																							</div>
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4>&nbsp;<br><u>Fourth &amp; Fifth Year</u></h4>
+																								<p><strong>Name:</strong> Rajyashree Lenka
+																									<br>
+																									<strong>Roll:</strong> 714CR2136
+																								</p>
+																								
+																								<h4><br><u>PG &amp; Research</u><br></h4>
+																								<p> <strong>NO CANDIDATE</strong></p>
+																							</div>
+																						</div>
+																					</div>
+
+																					<div class="tab-pane fade" id="ts">
+																						<div class="row">
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4><u>Second Year</u></h4>
+																								<p><strong>Name:</strong> Vamsi Krishna Karella
+																									<br>
+																									<strong>Roll:</strong>116CH0101
+																								</p>
+																								
+																								<h4>&nbsp;<br><u>Third Year</u></h4>
+																								<p><strong>Name:</strong> Amlan Kumar Sahoo
+																									<br>
+																									<strong>Roll:</strong>115CE0113
+																								</p>
+																								
+																							</div>
+																							<div class="col-md-6 col-sm-12 col-xs-12">
+																								<h4>&nbsp;<br><u>Fourth &amp; Fifth Year</u></h4>
+																								<p><strong>Name:</strong> Sibasish Mohanty
+																									<br>
+																									<strong>Roll:</strong> 114EC0127
+																								</p>
+																								
+																								<h4><br><u>PG &amp; Research</u><br></h4>
+																								<p><strong>NO CANDIDATE</strong> 
+																								</p>
+																								
+																							</div>
+																						</div>
+
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END SAC OFFICE BEARER-->
+
+															<!--DIRECTOR'S NOMINEE-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion" href="#panel-director-nominee" class="collapsed">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>Director’s Nominee</h1>
+																	</a>
+																</div>
+																<div id="panel-director-nominee" class="panel-collapse collapse">
+																	<div class="panel-body">
+																		<div class="col-sm-12">
+																			<p><strong>Name:</strong> Mohit Gupta (8596049882)
+																				<br>
+																				<strong>Roll:</strong> 114MM0643
+																			</p>
+																			<p><strong>Name:</strong> Payal Agrawal (7077105338)
+																				<br>
+																				<strong>Roll:</strong> 114CH0322
+																			</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END DIRECTOR'S NOMINEE-->
+
+															<!--DEAN'S NOMINEE-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion" href="#panel-dean-nominee" class="collapsed">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>Dean’s Nominee</h1>
+																	</a>
+																</div>
+																<div id="panel-dean-nominee" class="panel-collapse collapse">
+																	<div class="panel-body">
+																		<div class="col-md-6 col-sm-12 col-xs-12 sac-fms">
+																			<h3>FILM AND MUSIC SOCIETY</h3>
+																			<p><strong>Name:</strong>&nbsp;Swagat Mohanty
+																				<br>
+																				<strong>Roll:</strong>&nbsp;114CH0073
+																			</p>
+																			<p><strong>Name:</strong>&nbsp;Poorva Singh
+																				<br>
+																				<strong>Roll:</strong>&nbsp;114CE0434
+																			</p>
+																		</div>
+																		<div class="col-md-6 col-sm-12 col-xs-12 sac-lcs">
+																			<h3>LITERARY AND CULTURAL SOCIETY</h3>
+																			<p><strong>Name:</strong>&nbsp;Kumar Shaswat
+																				<br>
+																				<strong>Roll:</strong>&nbsp;714CS2121
+																			</p>
+																			<p><strong>Name:</strong>&nbsp;Punyaja Dash
+																				<br>
+																				<strong>Roll:</strong>&nbsp;114EC0026
+																			</p>
+																		</div>
+																		<div class="col-md-6 col-sm-12 col-xs-12 sac-gss">
+																			<h3>GAMES AND SPORTS SOCIETY</h3>
+																			<p><strong>Name:</strong>&nbsp;Sriya Sainath
+																				<br>
+																				<strong>Roll:</strong>&nbsp;115CS0239
+																			</p>
+																			<p><strong>Name:</strong>&nbsp;Debabrata Mohapatra
+																				<br>
+																				<strong>Roll:</strong>&nbsp;115ME0450
+																			</p>
+																		</div>
+																		<div class="col-md-6 col-sm-12 col-xs-12 sac-ts">
+																			<h3>TECHNICAL SOCIETY</h3>
+																			<p><strong>Name:</strong>&nbsp;Anup Kumar Mittal
+																				<br>
+																				<strong>Roll:</strong>&nbsp;114BT0191
+																			</p>
+																			<p><strong>Name</strong>:&nbsp;Chandan Barik
+																				<br>
+																				<strong>Roll:</strong>&nbsp;114CS0092
+																			</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END DEAN'S NOMINEE-->
+
+															<!--CONVENORS TAB-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion" href="#panel-convenors" class="collapsed">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>Convenors</h1>
+																	</a>
+																</div>
+																<div id="panel-convenors" class="panel-collapse collapse">
+																	<div class="panel-body">
+																		<div class="col-sm-12">
+																			<div class="row">
+																				<div class="col-md-6 col-sm-12 col-xs-12">
+																					<p>
+																						<strong>General Convener</strong>:
+																						<br> Pallerla Rajanish Reddy (<a href="mailto:413cy5075@nitrkl.ac.in">413cy5075@nitrkl.ac.in</a>)
+																					</p>
+																				</div>
+																				<div class="col-md-6 col-sm-12 col-xs-12">
+																					<p>
+																						<strong>Joint General Convener</strong>:
+																						<br> B Narsing Rao (7077105348)
+																					</p>
+																				</div>
+																			</div>
+																			<div class="row">
+																				<div class="col-md-6 col-sm-12 col-xs-12">
+																					<p>
+																						<strong>Technical Society</strong>:
+																						<br> 1) Chintalapally Subhahu Reddy (9583427062)
+																						<br> 2) Pallerla Rajanish Reddy (<a href="mailto:413cy5075@nitrkl.ac.in">413cy5075@nitrkl.ac.in</a>)
+																					</p>
+																				</div>
+																				<div class="col-md-6 col-sm-12 col-xs-12">
+																					<p>
+																						<strong>Cultural Society</strong>:
+																						<br> 1) Nishant Kumar Singh (7077105368)
+																						<br> 2) Mintu Kumar (7077105354)
+																					</p>
+																				</div>
+																				<div class="col-md-12 col-sm-12 clearfix"></div>
+																				<div class="col-md-6 col-sm-12 col-xs-12">
+																					<p>
+																						<strong>Games and Sports Society</strong>:
+																						<br> 1) B Narsing Rao (7077105348)
+																						<br> 2) Mohd. Abdul Saleem (<a href="mailto:713ce4138@nitrkl.ac.in">713ce4138@nitrkl.ac.in</a>)
+																					</p>
+																				</div>
+																				<div class="col-md-6 col-sm-12 col-xs-12">
+																					<p>
+																						<strong>Film and Music Society</strong>:
+																						<br> 1) Poorva Singh (9439783307)
+																						<br> 2) Puskar Mishra (9438450194)
+																					</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END CONVENORS TAB-->
+														</div>
+													</div>
+												</div>
+												<!--END SAC INFO TAB-->
+
+												<!--CLUB INFO TAB-->
+												<div class="tab-pane fade" id="club-info">
+													<div class="col-md-12 col-xs-12 col-sm-12">
+														<div class="panel-group" id="accordion1">
+															<!--FILM AND MUSIC SOCIETY-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion1" href="#filmMusic">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>Arts and Cultural Society</h1>
+																	</a>
+																</div>
+																<div id="filmMusic" class="panel-collapse collapse in">
+																	<div class="panel-body">
+																		<div class="row">
+																			<div class="col-md-12 col-sm-12">
+																				<ul class="nav nav-tabs">
+																					<li class="active"><a href="#akriti" data-toggle="tab">AKRITI</a>
+																					</li>
+																					<li><a href="#chefs_club" data-toggle="tab">CHEFS CLUB</a>
+																					</li>
+																					<li>
+																						<a href="#chitraang" data-toggle="tab">CHITRAANG </a>
+																					</li>
+																					<li>
+																						<a href="#cinematics" data-toggle="tab">CINEMATICS </a>
+																					</li>
+																					<li>
+																						<a href="#drill_and_base" data-toggle="tab"> DRILL AND BASE</a>
+																					</li>
+																					<li>
+																						<a href="#euphony" data-toggle="tab">EUPHONY </a>
+																					</li>
+																					<li>
+																						<a href="#heartbeats" data-toggle="tab"> HEARTBEATS </a>
+																					</li>
+																					<li>
+																						<a href="#mavericks" data-toggle="tab"> MAVERICKS </a>
+																					</li>
+																					<li>
+																						<a href="#pantomime" data-toggle="tab"> PANTOMIME </a>
+																					</li>
+																					<li>
+																						<a href="#ritvic" data-toggle="tab"> RITVIC </a>
+																					</li>
+																					<li>
+																						<a href="#synergy" data-toggle="tab"> SYNERGY</a>
+																					</li>
+																					<li>
+																						<a href="#thirdeye" data-toggle="tab"> THIRDEYE </a>
+																					</li>
+																				</ul>
+																				<div class="tab-content">
+																				<div class="tab-pane fade active in" id="akriti">
+																						<h3>AKRITI</h3>
+																						<p><strong>President:</strong> Sushant Prajapati</p>
+																						
+																					</div>
+																					<div class="tab-pane fade" id="chefs_club">
+																						<h3>CHEFS CLUB</h3>
+																						<p><strong>President:</strong> Sheary Somam Tete</p>
+																						<p><strong>G.S.:</strong> Zakiya Alli</p>
+																						<p><strong>Mentor:</strong>Radha Krishna</p>
+																					</div>
+																					<div class="tab-pane fade" id="chitraang">
+																						<h3>CHITRAANG</h3>
+																						<p><strong>President:</strong> Armaan Sahoo</p>
+																						<p><strong>V.P.:</strong> Shilpa Sethi </p>
+																						<p><strong>Treasure:</strong> Gayatri Vedula</p>
+																						<p><strong>Creative Head:</strong>Darshan Gardia</p>
+																					</div>
+																					<div class="tab-pane fade" id="cinematics">
+																						<h3>CINEMATICS</h3>
+																						<p><strong>C.C.:</strong> Sameer Ayyagari 
+																						,
+																						Naveen Patchala</p>
+																						<p><strong>Creative Head:</strong>Kalyan Deep</p>
+																					</div>
+																					<div class="tab-pane fade" id="drill_and_base">
+																						<h3></h3>
+																						<p><strong>President:</strong> Nischit Mishra</p>
+																						<p><strong>V.P.:</strong> Arun Pandey</p>
+																						<p><strong>M.H.:</strong> Sumit MAhapatra
+																						</p>
+																						<p><strong>Treasurer:</strong>  Rachan Vamsi RV</p>
+																					</div>
+																					<div class="tab-pane fade" id="euphony">
+																						<h3>EUPHONY</h3>
+																						<p><strong>President:</strong> Anubhav Sharma</p>
+																						<p><strong>V.P.:</strong> Shradhanshu Padhihary</p>
+																						
+																					</div>
+																					<div class="tab-pane fade" id="heartbeats">
+																						<h3>HEARTBEATS</h3>
+																						<p><strong>CC:</strong> Rajeshwor Mishra 
+																						<br>
+																						Amrutha Varshini
+																						</p>
+																					</div>
+																					<div class="tab-pane fade" id="mavericks">
+																						<h3>MAVERICKS</h3>
+																						<p><strong>CC:</strong> 
+																						Dhruti Varapula 
+																						<br>
+																						Rituparna Adha </p>
+																						<p><strong>Secretary:</strong> Balaji Nayak </p>
+																						<p><strong>Creative Head:
+																						</strong> Jahnavi</p>
+																					</div>
+																					<div class="tab-pane fade" id="pantomime">
+																						<h3>PANTOMIME</h3>
+																						<p><strong>President:</strong> 
+																						Megha Mangal</p>
+																						<p><strong>V.P.:</strong> Ishan Dewangan</p>
+																						<p><strong>Secretary:</strong> 
+																						Raja Sahani ,
+																						Deepak Thakur
+																						</p>
+																						<p><strong>Treasure:</strong>
+																						Chandan Agarwal
+																						</p>
+																						<p><strong>Technical and Publicity Head:</strong> Hrushikesh Kale</p>
+																					</div>
+																					<div class="tab-pane fade" id="ritvic">
+																						<h3>RITVIC</h3>
+																						<p><strong>President:</strong> Aman Francis Lakra</p>
+																						<p><strong>V.P.:</strong> Nikhil Gupta </p>
+																						<p><strong>Treasure:</strong> Nishant Kumar Singh
+																						</p>
+																						<p><strong>G.S.:</strong> Shrantik Dey</p>
+																						<p><strong>D.H.(M):</strong>Tanay Kumar</p>
+																						<p><strong>D.h>(F):</strong>
+																						Punyatoya Panda</p>
+																						<p><strong>Coordinator:</strong> Naman Jain</p>
+																					</div>
+																					<div class="tab-pane fade" id="synergy">
+																						<h3>SYNERGY</h3>
+																						<p><strong>President:</strong> Chinmaya Kumar Rout</p>
+																						<p><strong>V.P.:</strong> Akanskhya Patra</p>
+																						<p><strong>Managers:</strong> Chetna Mohanty , Subhashree Swain</p>
+																					</div>
+																					<div class="tab-pane fade" id="thirdeye">
+																						<h3>THIRDEYE</h3>
+																						<p><strong>President:</strong> Anubhav Sharma</p>
+																						<p><strong>V.P.:</strong> Shradhanshu Padhihary</p>
+																					</div>
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END FILM AND MUSIC SOCIETY-->
+
+															<!--GAMES AND SPORTS SOCIETY-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion1" href="#gamesSports" class="collapsed">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>Games and Sports Society </h1>
+																	</a>
+																</div>
+																<div id="gamesSports" class="panel-collapse collapse">
+																	<div class="panel-body">
+																		<div class="row">
+																			<div class="col-md-12 col-sm-12">
+																				<ul class="nav nav-tabs">
+																					<li class="active"><a href="#atheletics" data-toggle="tab">Atheletics</a>
+																					</li>
+																					
+																				</ul>
+																				<div class="tab-content">
+																					<div class="tab-pane fade" id="atheletics">
+																						<h3>Atheletics</h3>
+																						<p><strong>Male Captain:</strong>Mahaveer</p>
+																						<p><strong>Female Captain:</strong>Priyanka Sahoo</p>
+																					</div>
+																					</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END GAMES AND SPORTS SOCIETY-->
+															<!--LITERARY AND CULTURAL SOCIETY-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion1" href="#literaryCultural" class="collapsed">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>Literary and Cultural Society </h1>
+																	</a>
+																</div>
+																<div id="literaryCultural" class="panel-collapse collapse">
+																	<div class="panel-body">
+																		<div class="row">
+																			<div class="col-md-12 col-sm-12">
+																				<ul class="nav nav-tabs">
+																					<li class="active"><a href="#chitraang" data-toggle="tab">CHITRAANG</a>
+																					</li>
+																					<li><a href="#clarion" data-toggle="tab">CLARION</a>
+																					</li>
+																					<li><a href="#inquizzitive" data-toggle="tab">INQUIZZITIVE</a>
+																					</li>
+																					<li><a href="#leo" data-toggle="tab">LEO</a>
+																					</li>
+																					<li><a href="#pantomime" data-toggle="tab">PANTOMIME</a>
+																					</li>
+																					<li><a href="#ritvic" data-toggle="tab">RITVIC</a>
+																					</li>
+																					<li>
+																						<a href="" data-toggle="tab"> </a>
+																					</li>
+																					<li>
+																						<a href="" data-toggle="tab"> </a>
+																					</li>
+																				</ul>
+																				<div class="tab-content">
+																					<div class="tab-pane fade active in" id="chitraang">
+																						<h3>CHITRAANG</h3>
+																						<p><strong>President:</strong> Prabhat Singh Khushawa</p>
+																						<p><strong>Creative Head:</strong> Pratikshya Padhi</p>
+																						<p><strong>Secretary:</strong> Ayush Moharana</p>
+																						<p> <strong>Treasurer:</strong> Prabhu Chandan Dasbebarta</p>
+																					</div>
+																					<div class="tab-pane fade" id="clarion">
+																						<h3>CLARION</h3>
+																						<p><strong>President:</strong> Abhratej Sahoo</p>
+																						<p><strong>V.P.:</strong> Aditi Raj</p>
+																						<p><strong>Secretary:</strong> Prathamesh Dash</p>
+																					</div>
+																					<div class="tab-pane fade" id="inquizzitive">
+																						<h3>INQUIZZITIVE</h3>
+																						<p><strong>President:</strong> Avishek Sahoo</p>
+																					</div>
+																					<div class="tab-pane fade" id="leo">
+																						<h3>LEO</h3>
+																						<p><strong>President:</strong> Dipanjana Basu</p>
+																						<p><strong>V.P.:</strong> Roshni Biswas</p>
+																						<p><strong>Secretary:</strong> Saswat David</p>
+																						<p><strong>Treasurer:</strong> Anup Mittal</p>
+																					</div>
+																					<div class="tab-pane fade" id="pantomime">
+																						<h3>PANTOMIME</h3>
+																						<p><strong>President:</strong> Biswaranjan Nail</p>
+																						<p><strong>V.P.:</strong> Vikas Singh Raika</p>
+																					</div>
+																					<div class="tab-pane fade" id="ritvic">
+																						<h3>RITVIC</h3>
+																						<p><strong>President:</strong> Mohit Gupta</p>
+																						<p><strong>V.P.:</strong> Aman Francis Lakra </p>
+																						<p><strong>General Secretary:</strong> Ashish Dimri</p>
+																						<p><strong>Joint Secretary:</strong> Akshita Singh</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END LITERARY AND CULTURAL SOCIETY-->
+
+															<!--TECHNICAL SOCIETY-->
+															<div class="panel panel-default">
+																<div class="panel-heading">
+																	<a data-toggle="collapse" data-parent="#accordion1" href="#Technical" class="collapsed">
+																		<div class="nav-icon">
+																			<i class="fa fa-plus-square"></i>
+																			<i class="fa fa-minus-square"></i>
+																		</div>
+																		<h1>Technical Society</h1>
+																	</a>
+																</div>
+																<div id="Technical" class="panel-collapse collapse">
+																	<div class="panel-body">
+																		<div class="row">
+																			<div class="col-md-12 col-sm-12">
+																				<ul class="nav nav-tabs">
+																					<li class="active"><a href="#asme" data-toggle="tab">ASME</a>
+																					</li>
+																					<li><a href="#astro" data-toggle="tab">ASTRO</a>
+																					</li>
+																					<li><a href="#axiom" data-toggle="tab">AXIOM</a>
+																					</li>
+																					<li><a href="#cyborg" data-toggle="tab">CYBORG</a>
+																					</li>
+																					<li><a href="#ecell" data-toggle="tab">E-CELL</a>
+																					</li>
+																					<li><a href="#genesis" data-toggle="tab">GENESIS</a>
+																					</li>
+																					<li><a href="#microsoft" data-toggle="tab">MICROSOFT CAMPUS CLUB</a>
+																					</li>
+																					<li><a href="#sae" data-toggle="tab">SAE</a>
+																					</li>
+																				</ul>
+																				<div class="tab-content">
+																					<div class="tab-pane fade active in" id="asme">
+																						<h3>ASME</h3>
+																						<p><strong>Chairperson:</strong> Aditya Gupta</p>
+																						<p><strong>Vice-Chairperson:</strong> Preetam Kumar Khuntia</p>
+																						<p><strong>General Secretary:</strong> Shivam Rai</p>
+																						<p><strong>Chair-Finance:</strong> Ankit Acharya</p>
+																						<p><strong>Deputy General Secretary:</strong> Archana Rath</p>
+																						<p><strong>Chair-Interface:</strong> Sravan Potnuru</p>
+																						<p><strong>Technical Head:</strong> Manas Ranjan Pattnaik</p>
+																						<p><strong>ASME India Zone-4 ZR:</strong> Mitesh Mishra</p>
+																					</div>
+																					<div class="tab-pane fade" id="astro">
+																						<h3>ASTRO</h3>
+																						<p><strong>President:</strong> Aditya Narendra</p>
+																					</div>
+																					<div class="tab-pane fade" id="axiom">
+																						<h3>AXIOM</h3>
+																						<p><strong>President:</strong> Kumar Kishanjeet</p>
+																						<p><strong>V.P.:</strong> Jonnadula Eshwar Prithvi</p>
+																						<p><strong>Secretary:</strong> Ankit Pattnaik</p>
+																						<p> <strong>Treasurer:</strong> Atul Kumar</p>
+																					</div>
+																					<div class="tab-pane fade" id="cyborg">
+																						<h3>CYBORG</h3>
+																						<p><strong>President:</strong> Sourav mohapatra</p>
+																						<p><strong>V.P.:</strong> Dipam chakraborty (Technical)</p>
+																						<p><strong>V.P.:</strong> Nikhil Patwari (Management)</p>
+																						<p><strong>Treasurer:</strong> Sidharth Pujari</p>
+																					</div>
+																					<div class="tab-pane fade" id="ecell">
+																						<h3>E-CELL</h3>
+																						<p><strong>President:</strong> Rohit Kumar Singh</p>
+																						<p><strong>Chief Coordinators:</strong> Amrita Tripathy, Nimish Pattnaik </p>
+																						<p><strong>Coordinators:</strong> Andrew Jose Ignatius Milton, Abhipsa Nayak, Sougat Kumar Sarangi, Asim Kumar Satapathy, Ananya Arunima</p>
+																					</div>
+																					<div class="tab-pane fade" id="genesis">
+																						<h3>GENESIS</h3>
+																						<p><strong>President:</strong> Ekant Mishra</p>
+																						<p><strong>V.P.:</strong> Sourav Mishra</p>
+																						<p><strong>Chief Coordinators (Event Management):</strong> Seemadri Subhadarshini, Debashis Behera</p>
+																						<p><strong> Chief Coordinators (Publicity):</strong> Swastik Panda, Tejaswini Karra</p>
+																						<p><strong>Chief Coordinators (Technical):</strong> Swati Mohapatra, Subhasmita Panda</p>
+																					</div>
+																					<div class="tab-pane fade" id="microsoft">
+																						<h3>MICROSOFT CAMPUS CLUB</h3>
+																						<p><strong>Covenors:</strong> Dilip Raj Baral, Anukta Datta</p>
+																						<p><strong>Coordinators:</strong> Sangeet Singh, Kamal Agrawal</p>
+																						<p><strong>Secretary (External Affairs):</strong> Eshwar Prithvi Jonnadula</p>
+																						<p><strong>Secretary (Internal Affairs):</strong> Alolika Gon</p>
+																						<p><strong>Content Head:</strong> Roshni Biswas</p>
+																						<p><strong>Design Head:</strong> Srijan Dongol</p>
+																						<p><strong>Technical Head:</strong> Dibyam Agrawal</p>
+																					</div>
+																					<div class="tab-pane fade" id="sae">
+																						<h3>SAE</h3>
+																						<p><strong>President:</strong> Prateek Kar</p>
+																						<p><strong>V.P.:</strong> Abhijit Prusty </p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--END TECHNICAL SOCIETY-->
+														</div>
+													</div>
+												</div>
+												<!--END CLUB INFO TAB-->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--END SAC-->
+						</div>
+						<!--END CONTENT-->
+					</div>
+				</div>
+				<!--SIDEBAR-->
+				<aside class="col-md-3 col-sm-12">
+					<!--SQUIGGLES-->
+					<div class="col-md-12 col-sm-6 hidden-sm hidden-xs squiggles-wrapper">
+						<div class="squiggles">
+							<h3>Squiggles</h3>
+							<img src="<?php echo ASSETS_URL; ?>img/loading_squiggles.gif" />
+						</div>
+					</div>
+					<!--END SQUIGGLES-->
+					<?php echo $latest_poll; ?>
+					<div class="hidden-xs hidden-sm hidden-md hidden-lg"></div>
+				</aside>
+				<!--END SIDEBAR-->
+			</div>
+		</div>
+		<!--END MAIN SECTION-->
+
+		<!--FOOTER-->
+		<?php echo $footer; ?>
+		<!--END FOOTER-->
+	</div>
+	<!--END CONTAINER-->
+	<script type="text/javascript" src="<?php echo ASSETS_URL; ?>js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="<?php echo ASSETS_URL; ?>js/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="<?php echo ASSETS_URL; ?>js/bootstrap.js"></script>
+	<script type="text/javascript" src="<?php echo ASSETS_URL; ?>js/init.js"></script>
+	<script type="text/javascript" src="<?php echo ASSETS_URL; ?>js/poll-widget.js"></script>
+</body>
+
+</html>
